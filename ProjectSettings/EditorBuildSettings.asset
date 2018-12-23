@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Trim/Scenes/Trimming.unity
+    guid: dd683ef78c917f5468b556b30b36203a
+  - enabled: 1
+    path: Assets/Trim/Scenes/DebugTrimming.unity
+    guid: 3046699c520bbee4f8937966be73fbdc
+  m_configObjects: {}

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &88717866179964060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 88717866179964061}
+  - component: {fileID: 88717866179964062}
+  m_Layer: 0
+  m_Name: OpenCVCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &88717866179964061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88717866179964060}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &88717866179964062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88717866179964060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1436860e97bfe4183a41cd9b6cd445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playOnStart: 1
+  isAlwaysUpdateParameter: 0
+  parameterUpdateInterval: 0
+  settingMode: 0
+  settingsFileName: 
+  settings:
+    isDefault: 0
+    DeviceId: 0
+    DeviceName: 
+    Width: 1280
+    Height: 720
+    Fps: 0
+    Codec: 2
+    Brightness: 0
+    Contrast: 0
+    Exposure: 0
+    Gain: 0
+    Hue: 0
+    Saturation: 0
+    IsControlSize: 1
+    IsControlFps: 0
+    IsControlCodec: 1
+    IsControlBrightness: 0
+    IsControlContrast: 0
+    IsControlExposure: 0
+    IsControlGain: 0
+    IsControlHue: 0
+    IsControlSaturation: 0
