@@ -110,6 +110,10 @@ public class WarpablePlane : MonoBehaviour
         private set;
     }
 
+
+    [SerializeField]
+    bool isAutoLoad;
+
     private void Awake()
     {
         if (this.meshFilter == null)
@@ -124,7 +128,10 @@ public class WarpablePlane : MonoBehaviour
         if (isStandalone)
         {
             Init(Vector3.zero, this.size, SegmentX, SegmentY);
-            LoadSettings(fileName);
+            if (isAutoLoad)
+            {
+                LoadSettings(fileName);
+            }
         }
 
     }
